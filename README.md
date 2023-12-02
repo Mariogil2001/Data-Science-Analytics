@@ -21,3 +21,7 @@
    birthday DATE
 );
 ```
+- Añadido tabla "nomnom" a la basde de datos para el proyecto New York Restaurants.
+- Añadido Proyecto **New York Restaurants**.
+
+![Tabla New York Restaurant](https://content.codecademy.com/courses/sql-intensive/nomnom.png?_gl=1*13tjdn1*_ga*NTc2MTg1MTM1OS4xNjk5Mjg3NjIx*_ga_3LRZM6TM9L*MTcwMTUxNTAxOS40Ny4xLjE3MDE1MTgzMzEuMC4wLjA.)
