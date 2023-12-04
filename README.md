@@ -42,3 +42,18 @@ CREATE TABLE startups (
     info TEXT
 );
 ```
+- Añadido proyecto sobre las Tendencias en las noticias de Hacker News para el apartado de **LEARN SQL** de [Codeacademy](https://www.codecademy.com/learn). Donde se incluye la creación de la base de datos con el archivo *database.sql* y donde se hacen todas las queries en *queries.sql* Además de la base de datos en un archivo csv y del archivo JSON de donde viene.
+
+```
+CREATE TABLE hacker_news (
+    id text,
+    title text,
+    url text,
+    rank float,
+    score float,
+    timestamp DATETIME
+);
+.mode csv
+.separator ";"
+.import "Data-Science-Analytics\\Learn SQL\\Analyze Hacker News Trends\\archivo.csv" hacker_news
+```
