@@ -24,4 +24,21 @@
 - Añadido tabla "nomnom" a la basde de datos para el proyecto New York Restaurants.
 - Añadido Proyecto **New York Restaurants**.
 
-![Tabla New York Restaurant](https://content.codecademy.com/courses/sql-intensive/nomnom.png?_gl=1*13tjdn1*_ga*NTc2MTg1MTM1OS4xNjk5Mjg3NjIx*_ga_3LRZM6TM9L*MTcwMTUxNTAxOS40Ny4xLjE3MDE1MTgzMzEuMC4wLjA.)
+![Tabla New York Restaurant](/Learn%20SQL/New%20York%20Restaurant/New_york_restaurant.png)
+
+04-12-2023
+- Añadido proyecto sobre Tendencias en las Startups en el apartado de **LEARN SQL** de [Codeacademy](https://www.codecademy.com/learn). Donde se incluye la creación de la base de datos con el archivo *startup_database.sql* y donde se hacen todas las queries en *queries.sql*
+```
+CREATE TABLE startups (
+    name text,
+    location text,
+    category text,
+    employees INT,
+    raised INT,
+    valuation INT,
+    founded INT,
+    stage text,
+    ceo text,
+    info TEXT
+);
+```
